@@ -1,3 +1,13 @@
+.carousel-item img {
+  width: 70%; 
+  margin: auto;
+}
+
+#hackathonCarousel {
+  max-width: 80%; 
+  margin: auto;
+}
+
 * {
 	padding:0;
 	margin:0;
