@@ -1,3 +1,16 @@
+/* 首先確保 Carousel 的寬度適當 */
+#hackathonCarousel {
+    max-width: 100%; /* 或你可以設置具體的數值，根據需要調整 */
+    margin: auto;
+}
+
+/* 然後設置圖片的寬度為 50% 並居中 */
+#hackathonCarousel .carousel-item img {
+    width: 50%;
+    margin: 0 auto; /* 這會將圖片在其容器中居中 */
+}
+
+
 * {
 	padding:0;
 	margin:0;
